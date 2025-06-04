@@ -2,13 +2,13 @@
 
 ## Overview
 
-This project implements a customized chatbot designed to assist learners in the fields of Data Science and Artificial Intelligence (AI). The chatbot provides real-time, personalized support, helping users understand complex concepts and implement practical solutions. It leverages advanced language models to deliver accurate information and engaging interactions.
+This project implements a customized chatbot designed to assist learners in the fields of Interior Design. The chatbot provides real-time, personalized support, helping users understand complex concepts and implement practical solutions. It leverages advanced language models to deliver accurate information and engaging interactions.
 
 ## Features
 
-- **Real-Time Knowledge Access**: Instant answers to questions related to Data Science and AI.
+- **Real-Time Knowledge Access**: Instant answers to questions related to Interior Designs and core material, Woods, and the processes.
 - **Personalized Assistance**: Tailored responses based on the user's level of understanding.
-- **Practical Application Guidance**: Coding examples and implementation advice for various algorithms and models.
+- **Practical Application Guidance**: Wood examples and implementation advice for various tools and technology.
 - **Engaging Interaction**: A conversational interface that allows users to explore topics in depth.
 - **Memory Management**: Retains context from previous interactions for coherent conversations.
 
