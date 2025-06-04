@@ -1,4 +1,4 @@
-# README.md for Customized Chatbot for Interior Designs.
+# Customized Chatbot for Interior Designs.
 
 ## Overview
 
