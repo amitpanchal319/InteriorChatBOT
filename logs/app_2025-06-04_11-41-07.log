@@ -1,0 +1,30 @@
+[2025-06-04 11:41:07,293] WARNING -  * Debugger is active!
+[2025-06-04 11:41:07,296] INFO -  * Debugger PIN: 286-626-354
+[2025-06-04 11:41:19,186] INFO - 127.0.0.1 - - [04/Jun/2025 11:41:19] "GET /chat HTTP/1.1" 200 -
+[2025-06-04 11:41:19,314] INFO - 127.0.0.1 - - [04/Jun/2025 11:41:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-06-04 11:41:19,437] INFO - 127.0.0.1 - - [04/Jun/2025 11:41:19] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+[2025-06-04 11:41:38,389] ERROR - Error processing question 'what is transformers?': "Input to PromptTemplate is missing variables {'context'}.  Expected: ['context', 'history', 'question'] Received: ['history', 'question']\nNote: if you intended {context} to be part of the string and not a variable, please escape it with double curly braces like: '{{context}}'.\nFor troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/INVALID_PROMPT_INPUT "
+[2025-06-04 11:41:38,391] ERROR - Traceback (most recent call last):
+  File "E:\Laptop Data\Projects\customized-chatbot-proj\chatbot\app.py", line 33, in ask
+    response = chatbot_instance.ask(question)
+  File "E:\Laptop Data\Projects\customized-chatbot-proj\chatbot\__init__.py", line 12, in ask
+    return self.model.ask_chatbot(question)
+  File "E:\Laptop Data\Projects\customized-chatbot-proj\chatbot\model.py", line 39, in ask_chatbot
+    response = self.chain.invoke(inputs)
+  File "C:\Users\amitp\anaconda3\envs\rag_env\lib\site-packages\langchain_core\runnables\base.py", line 3045, in invoke
+    input_ = context.run(step.invoke, input_, config, **kwargs)
+  File "C:\Users\amitp\anaconda3\envs\rag_env\lib\site-packages\langchain_core\prompts\base.py", line 216, in invoke
+    return self._call_with_config(
+  File "C:\Users\amitp\anaconda3\envs\rag_env\lib\site-packages\langchain_core\runnables\base.py", line 1940, in _call_with_config
+    context.run(
+  File "C:\Users\amitp\anaconda3\envs\rag_env\lib\site-packages\langchain_core\runnables\config.py", line 428, in call_func_with_variable_args
+    return func(input, **kwargs)  # type: ignore[call-arg]
+  File "C:\Users\amitp\anaconda3\envs\rag_env\lib\site-packages\langchain_core\prompts\base.py", line 189, in _format_prompt_with_error_handling
+    _inner_input = self._validate_input(inner_input)
+  File "C:\Users\amitp\anaconda3\envs\rag_env\lib\site-packages\langchain_core\prompts\base.py", line 183, in _validate_input
+    raise KeyError(
+KeyError: "Input to PromptTemplate is missing variables {'context'}.  Expected: ['context', 'history', 'question'] Received: ['history', 'question']\nNote: if you intended {context} to be part of the string and not a variable, please escape it with double curly braces like: '{{context}}'.\nFor troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/INVALID_PROMPT_INPUT "
+
+[2025-06-04 11:41:38,391] INFO - 127.0.0.1 - - [04/Jun/2025 11:41:38] "[35m[1mPOST /ask HTTP/1.1[0m" 500 -
+[2025-06-04 11:42:47,010] INFO -  * Detected change in 'E:\\Laptop Data\\Projects\\customized-chatbot-proj\\logger\\__init__.py', reloading
+[2025-06-04 11:42:47,047] INFO -  * Detected change in 'C:\\Users\\amitp\\anaconda3\\envs\\rag_env\\Lib\\datetime.py', reloading

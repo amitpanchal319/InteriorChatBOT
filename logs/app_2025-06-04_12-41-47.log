@@ -1,0 +1,29 @@
+[2025-06-04 12:41:58,321] INFO - API Key set successfully.
+[2025-06-04 12:42:09,056] ERROR - Error processing question 'what is Interior?': Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+[2025-06-04 12:42:09,060] ERROR - Traceback (most recent call last):
+  File "E:\Laptop Data\Projects\Interior Chatbot\chatbot\app.py", line 56, in ask
+    response = chatbot_instance.ask(question)
+  File "E:\Laptop Data\Projects\Interior Chatbot\chatbot\__init__.py", line 17, in ask
+    return self.model.ask_chatbot(question)
+  File "E:\Laptop Data\Projects\Interior Chatbot\chatbot\model.py", line 62, in ask_chatbot
+    response = self.chain.invoke(inputs)
+  File "C:\Users\amitp\anaconda3\envs\rag_env\lib\site-packages\langchain_core\runnables\base.py", line 3047, in invoke
+    input_ = context.run(step.invoke, input_, config)
+  File "C:\Users\amitp\anaconda3\envs\rag_env\lib\site-packages\langchain_core\language_models\chat_models.py", line 372, in invoke
+    self.generate_prompt(
+  File "C:\Users\amitp\anaconda3\envs\rag_env\lib\site-packages\langchain_core\language_models\chat_models.py", line 957, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+  File "C:\Users\amitp\anaconda3\envs\rag_env\lib\site-packages\langchain_core\language_models\chat_models.py", line 776, in generate
+    self._generate_with_cache(
+  File "C:\Users\amitp\anaconda3\envs\rag_env\lib\site-packages\langchain_core\language_models\chat_models.py", line 1022, in _generate_with_cache
+    result = self._generate(
+  File "C:\Users\amitp\anaconda3\envs\rag_env\lib\site-packages\langchain_groq\chat_models.py", line 498, in _generate
+    response = self.client.create(messages=message_dicts, **params)
+  File "C:\Users\amitp\anaconda3\envs\rag_env\lib\site-packages\groq\resources\chat\completions.py", line 361, in create
+    return self._post(
+  File "C:\Users\amitp\anaconda3\envs\rag_env\lib\site-packages\groq\_base_client.py", line 1222, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "C:\Users\amitp\anaconda3\envs\rag_env\lib\site-packages\groq\_base_client.py", line 1031, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.AuthenticationError: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+

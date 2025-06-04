@@ -1,0 +1,22 @@
+[2025-06-04 11:52:13,130] ERROR - Error processing question 'what is transformers?': "Input to PromptTemplate is missing variables {'context'}.  Expected: ['context', 'history', 'question'] Received: ['history', 'question']\nNote: if you intended {context} to be part of the string and not a variable, please escape it with double curly braces like: '{{context}}'.\nFor troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/INVALID_PROMPT_INPUT "
+[2025-06-04 11:52:13,133] ERROR - Traceback (most recent call last):
+  File "E:\Laptop Data\Projects\customized-chatbot-proj\chatbot\app.py", line 56, in ask
+    response = chatbot_instance.ask(question)
+  File "E:\Laptop Data\Projects\customized-chatbot-proj\chatbot\__init__.py", line 11, in ask
+    return self.model.ask_chatbot(question)
+  File "E:\Laptop Data\Projects\customized-chatbot-proj\chatbot\model.py", line 61, in ask_chatbot
+    response = self.chain.invoke(inputs)
+  File "C:\Users\amitp\anaconda3\envs\rag_env\lib\site-packages\langchain_core\runnables\base.py", line 3045, in invoke
+    input_ = context.run(step.invoke, input_, config, **kwargs)
+  File "C:\Users\amitp\anaconda3\envs\rag_env\lib\site-packages\langchain_core\prompts\base.py", line 216, in invoke
+    return self._call_with_config(
+  File "C:\Users\amitp\anaconda3\envs\rag_env\lib\site-packages\langchain_core\runnables\base.py", line 1940, in _call_with_config
+    context.run(
+  File "C:\Users\amitp\anaconda3\envs\rag_env\lib\site-packages\langchain_core\runnables\config.py", line 428, in call_func_with_variable_args
+    return func(input, **kwargs)  # type: ignore[call-arg]
+  File "C:\Users\amitp\anaconda3\envs\rag_env\lib\site-packages\langchain_core\prompts\base.py", line 189, in _format_prompt_with_error_handling
+    _inner_input = self._validate_input(inner_input)
+  File "C:\Users\amitp\anaconda3\envs\rag_env\lib\site-packages\langchain_core\prompts\base.py", line 183, in _validate_input
+    raise KeyError(
+KeyError: "Input to PromptTemplate is missing variables {'context'}.  Expected: ['context', 'history', 'question'] Received: ['history', 'question']\nNote: if you intended {context} to be part of the string and not a variable, please escape it with double curly braces like: '{{context}}'.\nFor troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/INVALID_PROMPT_INPUT "
+

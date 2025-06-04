@@ -1,0 +1,27 @@
+[2025-06-04 11:42:48,419] WARNING -  * Debugger is active!
+[2025-06-04 11:42:48,423] INFO -  * Debugger PIN: 286-626-354
+[2025-06-04 11:45:00,876] INFO -  * Detected change in 'C:\\Users\\amitp\\anaconda3\\envs\\rag_env\\Lib\\site-packages\\langchain\\memory\\__init__.py', reloading
+[2025-06-04 11:45:00,884] INFO -  * Detected change in 'C:\\Users\\amitp\\anaconda3\\envs\\rag_env\\Lib\\site-packages\\langchain\\memory\\buffer.py', reloading
+[2025-06-04 11:45:00,890] INFO -  * Detected change in 'C:\\Users\\amitp\\anaconda3\\envs\\rag_env\\Lib\\site-packages\\langchain\\memory\\chat_memory.py', reloading
+[2025-06-04 11:45:00,895] INFO -  * Detected change in 'C:\\Users\\amitp\\anaconda3\\envs\\rag_env\\Lib\\site-packages\\langchain_core\\memory.py', reloading
+[2025-06-04 11:45:00,899] INFO -  * Detected change in 'C:\\Users\\amitp\\anaconda3\\envs\\rag_env\\Lib\\site-packages\\langchain_core\\load\\serializable.py', reloading
+[2025-06-04 11:45:00,904] INFO -  * Detected change in 'C:\\Users\\amitp\\anaconda3\\envs\\rag_env\\Lib\\site-packages\\pydantic\\__init__.py', reloading
+[2025-06-04 11:45:00,912] INFO -  * Detected change in 'C:\\Users\\amitp\\anaconda3\\envs\\rag_env\\Lib\\site-packages\\pydantic\\errors.py', reloading
+[2025-06-04 11:45:00,917] INFO -  * Detected change in 'C:\\Users\\amitp\\anaconda3\\envs\\rag_env\\Lib\\site-packages\\pydantic\\main.py', reloading
+[2025-06-04 11:45:00,944] INFO -  * Detected change in 'C:\\Users\\amitp\\anaconda3\\envs\\rag_env\\Lib\\site-packages\\pydantic\\networks.py', reloading
+[2025-06-04 11:45:00,957] INFO -  * Detected change in 'C:\\Users\\amitp\\anaconda3\\envs\\rag_env\\Lib\\site-packages\\pydantic\\types.py', reloading
+[2025-06-04 11:45:00,987] INFO -  * Detected change in 'C:\\Users\\amitp\\anaconda3\\envs\\rag_env\\Lib\\site-packages\\pydantic\\deprecated\\tools.py', reloading
+[2025-06-04 11:45:00,989] INFO -  * Detected change in 'C:\\Users\\amitp\\anaconda3\\envs\\rag_env\\Lib\\site-packages\\pydantic\\_internal\\_model_construction.py', reloading
+[2025-06-04 11:45:00,998] INFO -  * Detected change in 'C:\\Users\\amitp\\anaconda3\\envs\\rag_env\\Lib\\site-packages\\pydantic\\fields.py', reloading
+[2025-06-04 11:45:01,015] INFO -  * Detected change in 'C:\\Users\\amitp\\anaconda3\\envs\\rag_env\\Lib\\site-packages\\pydantic_core\\__init__.py', reloading
+[2025-06-04 11:45:01,027] INFO -  * Detected change in 'C:\\Users\\amitp\\anaconda3\\envs\\rag_env\\Lib\\site-packages\\pydantic\\aliases.py', reloading
+[2025-06-04 11:45:01,034] INFO -  * Detected change in 'C:\\Users\\amitp\\anaconda3\\envs\\rag_env\\Lib\\site-packages\\pydantic\\_internal\\_internal_dataclass.py', reloading
+[2025-06-04 11:45:01,037] INFO -  * Detected change in 'C:\\Users\\amitp\\anaconda3\\envs\\rag_env\\Lib\\site-packages\\pydantic\\_internal\\_repr.py', reloading
+[2025-06-04 11:45:01,041] INFO -  * Detected change in 'C:\\Users\\amitp\\anaconda3\\envs\\rag_env\\Lib\\site-packages\\pydantic\\_migration.py', reloading
+[2025-06-04 11:45:01,049] INFO -  * Detected change in 'C:\\Users\\amitp\\anaconda3\\envs\\rag_env\\Lib\\site-packages\\pydantic_core\\core_schema.py', reloading
+[2025-06-04 11:45:01,151] INFO -  * Detected change in 'C:\\Users\\amitp\\anaconda3\\envs\\rag_env\\Lib\\site-packages\\pydantic\\config.py', reloading
+[2025-06-04 11:45:01,166] INFO -  * Detected change in 'C:\\Users\\amitp\\anaconda3\\envs\\rag_env\\Lib\\site-packages\\annotated_types\\__init__.py', reloading
+[2025-06-04 11:45:01,206] INFO -  * Detected change in 'C:\\Users\\amitp\\anaconda3\\envs\\rag_env\\Lib\\site-packages\\langchain_core\\_api\\__init__.py', reloading
+[2025-06-04 11:45:01,207] INFO -  * Detected change in 'C:\\Users\\amitp\\anaconda3\\envs\\rag_env\\Lib\\site-packages\\langchain_core\\_api\\deprecation.py', reloading
+[2025-06-04 11:45:01,232] INFO -  * Detected change in 'C:\\Users\\amitp\\anaconda3\\envs\\rag_env\\Lib\\site-packages\\pydantic\\_internal\\_generate_schema.py', reloading
+[2025-06-04 11:45:01,288] INFO -  * Detected change in 'C:\\Users\\amitp\\anaconda3\\envs\\rag_env\\Lib\\site-packages\\pydantic\\_internal\\_decorators.py', reloading

@@ -1,0 +1,12 @@
+flask
+python-dotenv
+groq
+langchain>=0.1.17
+langchain_core>=0.1.45
+langchain_community>=0.0.26
+langchain_groq
+langchain_qdrant
+qdrant_client
+fastembed
+sentence-transformers
+pypdfium2
